@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+
+.text-center{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.text-center thead{
+    background: #35a857;
+}
+
+.text-center tr {
+    border-bottom: 2px solid #b4c9ba;
+}
+
+.text-center th, td{
+    border: 2px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+}
+
+.text-center tr:hover {
+    background: #35a857;
+}
+
+.text-center form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.tambah{
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #1d83d6;
+    color: white;
+    border-radius: 3px;
+}
+
+.update_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.delete_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #af1d1d;
+}
